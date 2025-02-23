@@ -3,9 +3,7 @@ import pandas as pd
 import psycopg2
 
 import os
-import psycopg2
-import pandas as pd
-import streamlit as st
+
 
 POSTGRES_DB = os.getenv("POSTGRES_DB", "stocks")
 POSTGRES_USER = os.getenv("POSTGRES_USER", "user")
